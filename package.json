@@ -1,0 +1,27 @@
+{
+  "name": "npm-init",
+  "version": "1.0.0",
+  "description": "curso de NPM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "node": "node src/index.js && node src/api.js",
+    "phoenix": "rm -f package-lock.json && rm -rf ./node_modules && npm install --no-fund --no-audit"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "JavaScript"
+  ],
+  "author": "soyandrestrujillo <andymania.1301@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.2",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  }
+}
